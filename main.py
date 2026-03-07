@@ -1,4 +1,4 @@
-from chatbot import learn_progamming
+from chatbot import learn_programming 
 from questions import programming_challenge
 from motivation import motivational_message
 from score import show_score
@@ -17,7 +17,7 @@ while True:
     choice = input("Choose an option: ")
 
     if choice == "1":
-        learn_progamming()
+        learn_programming()
     
     elif choice == "2":
         programming_challenge()
